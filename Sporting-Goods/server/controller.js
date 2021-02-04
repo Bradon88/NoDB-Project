@@ -25,7 +25,7 @@ const items = [
         name: 'Kayak',
         price: 350,
         quanity: 1,
-        image: 'https://cdn.shopify.com/s/files/1/0284/7725/9864/products/sky-10-lightweight-recreational-kayak-lime_2000x.jpg?v=1591216529'
+        image: 'https://media.rainpos.com/10085/1107319_primary.jpg'
     },
     {
         itemId: 4,
@@ -39,7 +39,7 @@ const items = [
         name: 'Football Cleats',
         price: 90,
         quanity: 1,
-        image: 'https://dks.scene7.com/is/image/GolfGalaxy/19NIKMNKLPHMNCPR2DLT_Black_White?qlt=70&wid=600&fmt=pjpeg'
+        image: 'http://cdn.shopify.com/s/files/1/1277/1445/products/Adidas_Adizero_5-Star_8_SK_Mid_D97642_grande.jpg?v=1556034783'
     },
     {
         itemId: 6,
@@ -53,14 +53,14 @@ const items = [
         name: 'Mountain Bike',
         price: 800,
         quanity: 1,
-        image: 'https://allprobicycles.com/2018/wp-content/uploads/2018/07/slash99.jpg'
+        image: 'https://cdn.bike24.net/i/mb/0b/50/71/343923-00-d-730710.jpg'
     },
     {
         itemId: 8,
         name: 'Hiking Backpack',
         price: 220,
         quanity: 1,
-        image: 'https://www.rei.com/media/product/141491'
+        image: 'https://www.divein.com/wp-content/uploads/osprey-aether-ag-60-hiking-backpack.jpg'
     }
 ]
 

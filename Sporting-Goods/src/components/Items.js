@@ -5,7 +5,7 @@ const Items = (props) => {
         
         <img className='image' src={props.item.image}/>
         <button onClick={() => props.addItems(props.item)} className = 'item-button'>{props.item.name}</button>
-                <p>${props.item.price}</p>
+                <p className='item-price'>${props.item.price}</p>
             
     </div>
 }

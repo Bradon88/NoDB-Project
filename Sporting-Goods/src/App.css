@@ -19,6 +19,7 @@ header {
   font-size:xx-large;
   color: rgb(7, 184, 243);
   font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .main {
@@ -44,10 +45,12 @@ header {
   font-weight: bold;
   margin-left: 50px;
   margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-decoration: underline; 
 }
 
 .display {
-  background-color:white;
+  background-color: white;
   width: 65vw;
   height: 91vh;
   display: grid;
@@ -60,8 +63,8 @@ header {
     ". . .";
   
   
-  margin-left: 10px;
-  margin-top: 10px;
+  margin-left: 80px;
+  margin-top: 40px;
 }
 
 .item-button {
@@ -70,12 +73,14 @@ header {
   font-size: 20px;
   background: none;
   padding: 8px 8px;
-  font-family: 'montserrat';
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  outline: none;
 }
 
 .image {
-  width: 50px;
-  height: 50px;
+  width: 120px;
+  height: 120px;
+  display: block;
 }
 
 .total {
@@ -83,4 +88,22 @@ header {
   font-size: x-large;
   font-weight: bold;
   margin-left: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.item-in-cart {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.item-button:active {
+  background-color: #3498db;
+  transition: 0.1s;
+  outline: none;
+}
+
+.item-price {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
 }
